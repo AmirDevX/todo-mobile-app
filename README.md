@@ -1,16 +1,33 @@
-# React + Vite
+# وب‌اپلیکیشن مدیریت کارهای روزمره (Mobile-First To-Do App)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک پروژه وب‌اپلیکیشن موبایل مدرن و واکنش‌گرا (Responsive) که با **React** و **Tailwind CSS** توسعه یافته است. این پروژه روی ارائه یک تجربه کاربری تمیز در ابعاد موبایل تمرکز دارد.
 
-Currently, two official plugins are available:
+## 🚀 امکانات کلیدی
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **طراحی Mobile-First و مدرن:** بهینه‌سازی شده برای صفحات موبایل با رابط کاربری جذاب و انیمیشن‌های نرم.
+- **تقویم شمسی داینامیک:** قابلیت تعیین تاریخ سررسید برای وظایف با استفاده از تقویم جلالی.
+- **مدیریت برچسب‌ها (Tags):** امکان ساخت، جستجو و حذف برچسب‌های دلخواه برای دسته‌بندی کارها.
+- **اولویت‌بندی وظایف:** تعیین سطح اهمیت (بالا، متوسط، پایین) با رنگ‌بندی‌های استاندارد.
+- **حالت تاریک/روشن (Dark/Light Mode):** تغییر تم هوشمند با قابلیت ذخیره‌سازی وضعیت در مرورگر.
+- **نوار پیشرفت داینامیک:** نمایش درصد کارهای انجام شده به صورت زنده در هدر برنامه.
+- **تب امروز (Today View):** فیلتر خودکار تسک‌هایی که مهلت انجام آن‌ها دقیقاً امروز است.
+- **قابلیت جابجایی (Drag & Drop):** امکان تغییر ترتیب کارها با کشیدن و رها کردن.
+- **ماندگاری داده‌ها:** ذخیره‌سازی خودکار اطلاعات در `LocalStorage` مرورگر.
 
-## React Compiler
+## 🛠️ تکنولوژی‌های به‌کار رفته
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** (کتابخانه اصلی)
+- **Vite** (ابزار ساخت و توسعه سریع)
+- **Tailwind CSS v4** (فریم‌ورک استایل‌دهی مدرن)
+- **Lucide React** (پک آیکون‌های وکتور و سبک)
+- **React Multi Date Picker** (مدیریت تقویم شمسی)
 
-## Expanding the ESLint configuration
+## 💻 نحوه اجرا در سیستم محلی
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+۱. ابتدا مخزن را کلون کنید یا فایل‌ها را دانلود کنید.
+
+۲. ترمینال را در پوشه پروژه باز کرده و دستور‌های زیر را برای نصب پکیج‌ها و اجرا پروژه بزنید:
+```bash
+npm install
+npm run dev
+```
